@@ -61,7 +61,6 @@
     </PreBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PostBuildEvent>del E:\GitHub\NeverBasicTweaks\build\*
-xcopy E:\GitHub\NeverBasicTweaks\NeverBasicTweaks\bin\Debug E:\GitHub\NeverBasicTweaks\build /c /j</PostBuildEvent>
+    <PostBuildEvent>xcopy E:\GitHub\NeverBasicTweaks\NeverBasicTweaks\bin\Debug E:\GitHub\NeverBasicTweaks\build /c /j</PostBuildEvent>
   </PropertyGroup>
 </Project>
